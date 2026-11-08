@@ -1,2 +1,2 @@
-# kintsugi-marketplace
+# Recircuit-marketplace
 Second-Hand Electronics Marketplace

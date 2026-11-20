@@ -1017,8 +1017,8 @@ body:not(:has(#page-browse:target, #page-browse :target, #page-sell:target)) .si
               <tr><th scope="row">Known issues</th><td>None. Screen guard applied since day one.</td></tr>
             </table>
           </div>
-          <!-- <form class="enq" action="/api/enquiries" method="post"> -->
-            <form enctype="multipart/form-data">
+          <form class="enq" action="/api/enquiries" method="post">
+            
             <h3>Enquire about this device</h3>
             <input type="hidden" name="listing_id" value="p2">
             <div class="field"><label class="req" for="p2-name">Your name</label><input type="text" id="p2-name" name="buyer_name" autocomplete="name" required></div>
@@ -1278,7 +1278,8 @@ body:not(:has(#page-browse:target, #page-browse :target, #page-sell:target)) .si
                      photos (multiple), price, negotiable, declaration
              Change the action URL below to point at your own server.
              ===================================================== -->
-        <form action="/api/listings" method="post" enctype="multipart/form-data">
+        <!-- <form action="/api/listings" method="post" enctype="multipart/form-data"> -->
+        <form enctype="multipart/form-data">
 
           <div class="form-card">
             <fieldset>
